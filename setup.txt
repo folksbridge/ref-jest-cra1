@@ -1,0 +1,21 @@
+Jest + Enzyme + CRA (create-react-app)
+https://medium.com/@leonardobrunolima/react-tips-testing-react-component-with-jest-enzyme-basics-38a15d5dd72a
+https://github.com/lblima/react-basic-tests-with-jest-enzyme
+==========================================
+npx create-react-app jest-cra1
+cd jest-cra1
+yarn add react-test-renderer -D
+
+yarn test
+
+yarn add enzyme enzyme-adapter-react-16 react-test-renderer
+create file: ./setupTests.js
+create file: src/App.enzyme.test
+add more test cases
+
+yarn test
+yarn test -- --coverage
+
+copy App2.js and components/*.* from  <the repository> 
+
+yarn test
